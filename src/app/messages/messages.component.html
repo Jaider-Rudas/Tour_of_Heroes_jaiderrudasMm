@@ -1,8 +1,130 @@
 <div *ngIf="messageService.messages.length">
 
-        <h2>Messages</h2>
-        <button type="button" class="clear"
-                (click)="messageService.clear()">Clear messages</button>
+        <h2 class="messages">Messages</h2>
+        <button style="padding: blue;" type="button" class="clear" (click)="messageService.clear()">Clear
+                messages</button>
         <div *ngFor='let message of messageService.messages'> {{message}} </div>
-      
-      </div>
+
+</div>
+<br> <b>
+        <hr>
+</b>
+<table>
+        <tr>
+                <td>Elemento #1</td>
+                <td>Elemento #2</td>
+                <td>Elemento #3</td>
+        </tr>
+        <tr>
+                <td>Elemento #1</td>
+                <td>Elemento #2</td>
+                <td>Elemento #3</td>
+        </tr>
+
+</table>
+<br> <b>
+        <hr>
+</b>
+<form>
+        <label for="nombre">Ingrece su nombre:</label>
+        <input type="text" placeholder="Escriba aquí su nombre" maxlength="11" id="nombre">
+        <div>
+                <label>Ingrece su nombre:</label>
+                <input type="text" value="Escriba aquí su nombre">
+        </div>
+        <label for="contraseña">Ingrece su contraseña:</label>
+        <input type="password" placeholder="Escriba aquí su contraseña" name="" id="contraseña">
+        <input class="enviarr" type="button" value="send">
+        <br>
+        <select name="" id="">
+                <option value="MisakiRudas">Misaki Rudas</option>
+                <option value="MisakiRudas">Misaki Rudas</option>
+                <option value="jaiderrudasMm">jaiderrudasMm</option>
+                <option value="MisakiRudas">Misaki Rudas</option>
+                <option value="jaiderrudasMm">jaiderrudasMm</option>
+                <option value="jaiderrudasMm">jaiderrudasMm</option>
+                <option value="MisakiRudas">Misaki Rudas</option>
+                <option value="jaiderrudasMm">jaiderrudasMm</option>
+        </select>
+        <input type="datetime-local" name="" id="">
+        <input type="range">
+</form>
+<hr>
+
+<table>
+        <tr>
+                <img class="img1"
+                        src="https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1lZHVzYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                <img src="https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1lZHVzYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+
+        </tr>
+        <hr>
+        <nav>
+                <ul>
+                        <li><a href="">Board</a></li>
+                        <li><a href="">category</a></li>
+                        <li><a href="">profile</a></li>
+                        <li><a href="">Contact us</a></li>
+                </ul>
+        </nav>
+</table>
+<hr>
+
+<section class="wrapper">
+        <section class="main">
+                <article>
+                        <h2>
+                                title of page
+                        </h2>
+                        <p>
+                                Good morning everyone.
+                                I hope you are well, it is 10:12 on 09-07-2022,
+                                I am putting the angular documentation into practice again,
+                                but this time it was em easier for me to follow up, <br /> thank God I have finished
+                                them... <br />
+                                listening to some music from the band 'Nirvana' hehehehehe
+                                now I'll be attentive to the part of the opinions of the users,
+                                that is to say the styles of the page.
+                        </p>
+                </article>
+
+                <article>
+                        <h2>
+                                nuestro servicio consiste...
+                        </h2>
+                        <p>
+                                Good morning everyone.
+                                I hope you are well, it is 10:12 on 09-07-2022,
+                                I am putting the angular documentation into practice again,
+                                but this time it was em easier for me to follow up, <br /> thank God I have finished
+                                them... <br />
+                                listening to some music from the band 'Nirvana' hehehehehe
+                                now I'll be attentive to the part of the opinions of the users,
+                                that is to say the styles of the page.
+                        </p>
+                </article>
+        </section>
+        <aside>
+                <article>
+                        <h3>
+                                Sidebar
+                        </h3>
+                        <p>
+                                Good morning everyone.
+                                I hope you are well, it is 10:12 on 09-07-2022,
+                                I am putting the angular documentation into practice again,
+                                but this time it was em easier for me to follow up, <br /> thank God I have finished
+                                them... <br />
+                                listening to some music from the band 'Nirvana' hehehehehe
+                                now I'll be attentive to the part of the opinions of the users,
+                                that is to say the styles of the page.
+                        </p>
+                </article>
+        </aside>
+</section>
+
+<footer>
+        <p>Holis, soy jaiderrudasMm - se realizó el 09-07-2022</p>
+</footer>
